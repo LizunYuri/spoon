@@ -1,0 +1,40 @@
+.none{
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.header-effect {
+    display: none;
+    animation-name: fade-in-top;
+    animation-duration: 1.5s;
+}
+@keyframes fade-in-top {
+        
+    0% {
+        transform:translateY(-20px);
+        opacity:0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity:1;
+    }
+
+}
+
+.title-effect{
+    
+    animation-name: slide-in-bck-left;
+    animation-duration: 1.5s;
+}
+@keyframes slide-in-bck-left {
+        
+    0% {
+        transform:translateZ(700px) translateX(-100px);
+        opacity:0;
+    }
+
+    100% {
+        transform:translateZ(0) translateX(0);
+        opacity:1;
+    }
+}
