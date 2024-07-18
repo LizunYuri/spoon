@@ -1,0 +1,12 @@
+.litle-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  .litle-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .litleslide {
+    min-width: 100%;
+    overflow: hidden;
+  }

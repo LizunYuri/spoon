@@ -1,0 +1,96 @@
+.fade-animation-loader-left, .fade-animation-loader-right, .fade-animation-loader-bottom {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+
+  .fade-animation-loader-left.fade-in-left {
+    opacity: 1;
+    animation-name: fade-in-left;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+@keyframes fade-in-left {
+        
+    0% {
+        transform:translateX(-20px);
+        opacity:0;
+    }
+    100% {
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+
+
+.fade-animation-loader-right.fade-in-right {
+    opacity: 1;
+    animation-name: fade-in-right;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+@keyframes fade-in-right {
+        
+    0% {
+        transform:translateX(20px);
+        opacity:0;
+    }
+    100% {
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+.fade-animation-loader-bottom.fade-in-bottom {
+    opacity: 1;
+    animation-name: fade-in-bottom;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+@keyframes fade-in-bottom {
+        
+    0% {
+        transform:translateY(20px);
+        opacity:0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+@for $i from 1 through 3 {
+    .show-card-block:nth-child(#{$i}){
+        animation: slit-in-horizontal #{2s * $i};
+    }
+}
+
+
+@keyframes slit-in-horizontal {
+        
+    0% {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
