@@ -530,9 +530,8 @@ svg {
 .promouting-title h3 {
   font-family: Libre;
   font-size: 24px;
-  font-weight: 700;
   line-height: 36px;
-  text-align: left;
+  font-weight: 700;
 }
 .promouting-title h3 span {
   font-weight: 100;
@@ -587,9 +586,8 @@ svg {
 .promouting-card-body p {
   font-family: Ibm;
   font-size: 13px;
-  font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  font-weight: 400;
   color: var(--color-grey);
 }
 
@@ -633,8 +631,8 @@ svg {
 .slider > .subtitle p {
   font-family: Libre;
   font-size: 24px;
-  font-weight: 100;
   line-height: 36px;
+  font-weight: 100;
   margin: 0;
   color: var(--color-grey);
 }
@@ -667,7 +665,7 @@ svg {
 }
 
 .portfolio {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 .portfolio-body {
   width: 100%;
@@ -702,9 +700,8 @@ svg {
 .portfolio-body-left-text h5 {
   font-family: Libre;
   font-size: 24px;
-  font-weight: 400;
   line-height: 36px;
-  text-align: left;
+  font-weight: 400;
   color: var(--color-grey);
 }
 .portfolio-body-left-text h5 span {
@@ -714,9 +711,8 @@ svg {
 .portfolio-body-left-text p {
   font-family: Ibm;
   font-size: 13px;
-  font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  font-weight: 400;
   color: var(--color-grey);
 }
 .portfolio-body-right > .right {
@@ -739,9 +735,8 @@ svg {
 .portfolio-body-right-text h5 {
   font-family: Libre;
   font-size: 24px;
-  font-weight: 400;
   line-height: 36px;
-  text-align: left;
+  font-weight: 400;
   color: var(--color-grey);
 }
 .portfolio-body-right-text h5 span {
@@ -751,9 +746,8 @@ svg {
 .portfolio-body-right-text p {
   font-family: Ibm;
   font-size: 13px;
-  font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  font-weight: 400;
   color: var(--color-grey);
 }
 .portfolio-footer {
@@ -787,4 +781,145 @@ svg {
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+.party {
+  margin-bottom: 120px;
+}
+.party-body {
+  padding-top: 60px;
+  border-top: 1px solid var(--color-grey);
+}
+.party-body-content {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.party-body-content-text {
+  width: 483px;
+}
+.party-body-content-text h5 {
+  font-family: Libre;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 100;
+  color: var(--color-grey);
+}
+.party-body-content-text h5 span {
+  font-weight: 400;
+  color: var(--color-black);
+}
+.party-body-content button {
+  width: 160px;
+  height: 60px;
+  background: var(--color-green);
+  color: var(--color-white);
+  border-radius: 4px;
+}
+
+.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.one p {
+  font-family: Libre;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: var(--color-green);
+  text-transform: capitalize;
+  margin: 0;
+}
+.one-line {
+  margin-left: 20px;
+  width: 30px;
+  height: 2px;
+  background-color: var(--color-green);
+}
+
+.footer {
+  width: 100%;
+  height: 399px;
+  background-color: var(--color-black);
+  padding-top: 120px;
+}
+.footer-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.footer-body-copyright p {
+  padding-top: 20px;
+  font-family: Libre;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgb(102, 102, 102);
+}
+.footer-body-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footer-body-nav-block {
+  margin-right: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-body-nav-block li {
+  margin-bottom: 25px;
+}
+.footer-body-nav-block a {
+  font-family: Libre;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: var(--color-white);
+}
+.footer-body-nav-block:last-child {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-body-nav-block:last-child a > svg {
+  width: 12px;
+  height: 10px;
+  margin-right: 25px;
 }
